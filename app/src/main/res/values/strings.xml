@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Augmented Reality Compass</string>
+    <string name="compass_filter_text">Compass filtering</string>
+    <string name="gravity_filter_text">Gravity filtering</string>
+    <string name="status_text">Status: </string>
+    <string name="image_content_description">Compass and landscape</string>
+    <string name="info_text">You may need to rotate your device in the air in several directions to calibrate the compass sensor. You can do this now. And depending on the quality of your device\'s sensors, you may set the sensor filters to get the preferred compromise between smoothness and responsiveness.</string>
+    <string name="ok_button">Go!</string>
+    <string name="image_credits">Landscape from walluck.com</string>
+    <string name="save_location_text_button">Save location</string>
+</resources>

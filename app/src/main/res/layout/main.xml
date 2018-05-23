@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/main_frame"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/status_text"
+        android:id="@+id/status_text"
+        android:textSize="20sp"
+        android:textColor="#ff0082ff"
+        android:layout_weight="1.0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gravity_filter_text"
+        android:id="@+id/gravity_text"
+        android:textSize="20sp"
+        android:textColor="#ff0082dd" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gravity_filter"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/compass_filter_text"
+        android:id="@+id/compass_text"
+        android:textSize="20sp"
+        android:textColor="#ff0082dd" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/compass_filter"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
